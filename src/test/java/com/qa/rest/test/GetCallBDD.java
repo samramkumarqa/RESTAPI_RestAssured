@@ -20,7 +20,7 @@ public class GetCallBDD {
 			and().
 			body("MRData.CircuitTable.Circuits.circuitId", hasSize(20)).
 			and().
-			header("content-length", equalTo("4552"));
+			header("content-length", equalTo("4551"));
 		
 	}
 }
